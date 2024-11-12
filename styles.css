@@ -1,0 +1,55 @@
+body {
+    background-image: url("slike/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 10%;
+    width: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hiddenCard {
+    filter: brightness(0);
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    font-size: 16pt;   
+}
+
+.centerItems {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+h1, h2{
+    color: white;
+    font-weight: bold;
+    font-size: 35pt;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.hideElement {
+    visibility: hidden;
+}
+
+.height {
+    height: 100%;
+}
